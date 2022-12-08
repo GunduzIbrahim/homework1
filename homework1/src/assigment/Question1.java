@@ -10,7 +10,7 @@ public class Question1 {
 		
 		System.out.println("Your age is : " + age);
 		System.out.println("Your Class number is : " + classNumber);
-		System.out.println("Your heigt is : " + height + " cm\n");
+		System.out.println("Your heigt is : " + height + " cm");
 
 	}
 
