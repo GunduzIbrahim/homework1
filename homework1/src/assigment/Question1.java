@@ -33,7 +33,7 @@ public class Question1 {
 		int thirdWorkerWage = 2602;
 		
 		System.out.println("\nFirst Worker wage is : " + firstWorkerWage + " €");
-		System.out.println("Second Worker wage is : " + secondWorkerWage + " €");
+		System.out.println("Second Worker wage is : " + secondWorkerWage + " $");
 		System.out.println("Third Worker wage is : " + thirdWorkerWage + " €");
 		
 		// long data types
@@ -63,7 +63,7 @@ public class Question1 {
 		double thirdWorkerHourlyWage = 8.65485854;
 		
 		System.out.println("\nFirst Worker hourly wage is : " + firstWorkerHourlyWage + " €");
-		System.out.println("First Worker hourly wage is : " + secondWorkerHourlyWage + " €");
+		System.out.println("First Worker hourly wage is : " + secondWorkerHourlyWage + " $");
 		System.out.println("First Worker hourly wage is : " + thirdWorkerHourlyWage + " €");
 		
 		// boolean data types
@@ -76,6 +76,15 @@ public class Question1 {
 		System.out.println("Second Worker is happy ? : " + secondWorkerJobSatisfaction);
 		System.out.println("Third Worker is happy ? : " + thirdWorkerJobSatisfaction);
 		
+		// char data types
+		
+		char firstWorkersMoneySign = '€';
+		char secondWorkersMoneySign = '$';
+		char thirdWorkersMoneySign = '€';
+		
+		System.out.println("\nFirst Worker's money sign is : " + firstWorkersMoneySign);
+		System.out.println("Second  Worker's money sign is : " + secondWorkersMoneySign);
+		System.out.println("Third Worker's money sign is : " + thirdWorkersMoneySign);
 		
 		
 
