@@ -11,6 +11,8 @@ public class Question2 {
 		System.out.println("Long type : " + Long.MIN_VALUE +" ... "+ Long.MAX_VALUE);
 		System.out.println("Float type : " + Float.MIN_VALUE +" ... "+ Float.MAX_VALUE);
 		System.out.println("Double type : " + Double.MIN_VALUE +" ... "+ Double.MAX_VALUE);
+		
+		
 
 	}
 
