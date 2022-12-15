@@ -91,8 +91,6 @@ public class Question1 {
 		System.out.println("Second  Worker's money sign is : " + secondWorkersMoneySign);
 		System.out.println("Third Worker's money sign is : " + thirdWorkersMoneySign);
 		
-		
-
-	}
+		}
 
 }
