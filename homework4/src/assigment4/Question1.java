@@ -25,6 +25,7 @@ public class Question1 {
 		metin = metin.trim();
 		metin = metin.replaceAll("\\d","");
 		metin = metin.replace("C", "c");
+		metin = metin.replace("@", ".");
 		metin = metin.substring(0, 23);
 
 		System.out.println(metin);
