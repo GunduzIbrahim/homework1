@@ -22,10 +22,10 @@ public class Question4 {
 		System.out.println("Lutfen 16 haneli kredi karti numaranizi 4 rakamda bir araya ',' koyarak giriniz..:");
 		String kartNo = scan.nextLine();
 		
-//		ad.toUpperCase().substring(0);
-//		soyAd.toUpperCase().substring(0);
+		ad = ad.toUpperCase().substring(0);
+		soyAd = soyAd.toUpperCase().substring(0);
 		
-		if (kartNo.indexOf(",", 3)==1) {
+		if (kartNo.substring(3).indexOf(",")==1) {
 		
 		String boslukluKartno = kartNo.replaceAll("\\W", " ");
 		
@@ -35,8 +35,9 @@ public class Question4 {
 		
 		System.out.println("\nIsim-Soyisim...: " + gizliAd + " " + gizliSoyad);
 		System.out.println("Kart No........: " + gizliKartNo);
+		
 		}
-		else System.out.println("Girmis oldugunuz kart noda 4 rakamda bir araya ',' koymadiniz...");
+		else System.out.println("Girmis oldugunuz kart numarasinda 4 rakamda bir araya ',' koymadiniz...");
 		
 		scan.close();
 
